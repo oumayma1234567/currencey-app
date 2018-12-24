@@ -1,0 +1,42 @@
+{
+  "name": "react-native-redux-crypto-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "postinstall": "remotedev-debugger --hostname localhost --port 5678 --injectserver"
+  },
+  "remotedev": {
+    "hostname": "localhost",
+    "port": 19000
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.7",
+    "remotedev-rn-debugger": "^0.8.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "expo": "^31.0.6",
+    "jest-expo": "^31.0.0",
+    "react": "^16.7.0",
+    "react-native": "^0.57.8",
+    "react-native-debugger-open": "^0.3.17",
+    "react-native-elements": "^0.19.1",
+    "react-native-scripts": "^2.0.1",
+    "react-redux": "^5.1.1",
+    "react-test-renderer": "^16.7.0",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.2.0",
+    "remote-redux-devtools": "^0.5.14"
+  }
+}

@@ -1,0 +1,1 @@
+export const apiBaseURL = ' https://pro-api.coinmarketcap.com/v1/cryptocurrency/info?CMC_PRO_API_KEY=be4dd4f8-1900-4ec2-8f81-088a28cfa469&id=1,2,3,4,5,6,7,8,9,10,11,12,13';
